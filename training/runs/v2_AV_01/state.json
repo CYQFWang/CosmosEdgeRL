@@ -1,0 +1,26 @@
+{
+  "phase": "train",
+  "screened": {},
+  "selected": [
+    "FruitsOnionTask",
+    "SmallerObjectButterInBinTask",
+    "BowlInBinTask",
+    "ButterAboveRaisinTask",
+    "MustardInRightBinTask",
+    "MustardInLeftBinTask"
+  ],
+  "round": 0,
+  "epoch": 4,
+  "collection": 0,
+  "checkpoint": "~/vis_rl/training/runs/v2_AV_01/checkpoints/e03c1",
+  "version": "354cc3f87d84339dd455ad1c9dc95f514627af59584e388368aefe60fac81e3a",
+  "env_steps": 127130,
+  "train_started": 1795470388.05274,
+  "round0_batches": [],
+  "pending_batches": [],
+  "epoch_checkpoints": [
+    "~/vis_rl/training/runs/v2_AV_01/checkpoints/e01c1",
+    "~/vis_rl/training/runs/v2_AV_01/checkpoints/e02c1",
+    "~/vis_rl/training/runs/v2_AV_01/checkpoints/e03c1"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "capture_dir": "/var/tmp/vis_rl/v2_AA_01/e03c1/e03c1_ButterAboveRaisinTask_default/rollout/capture",
+  "version": "33d0aad6810299787c0d069cdbda44a07a99d0640c9dcac4d2e5308b064e4553",
+  "adapter": "~/vis_rl/training/runs/v2_AA_01/checkpoints/e03c0/heads.pt"
+}

@@ -1,0 +1,5 @@
+{
+  "capture_dir": "/var/tmp/vis_rl/v2_T_01/e03c1/e03c1_SmallerObjectButterInBinTask_default/rollout/capture",
+  "version": "cc03bd0b7620cd5591a1dc2ec062ecd8becdf1d6c473a6272148b852abc59468",
+  "adapter": "~/vis_rl/training/runs/v2_T_01/checkpoints/e03c0/heads.pt"
+}

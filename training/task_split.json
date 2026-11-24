@@ -1,0 +1,1212 @@
+{
+  "seed": 418,
+  "metadata_sha256": "2164e9cc07227b8b4dbab052139d13a56b9125f907d6261715ab4963561d723e",
+  "splits": {
+    "train": [
+      {
+        "task": "BagelsOnPlateTask",
+        "scene": "bagel_plate_banana_bowl.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Plate some bagels",
+          "default": "Put the bagels on the plate",
+          "specific": "Pick up the two bagels from the table and place them onto the plate"
+        }
+      },
+      {
+        "task": "BananaOnPlateTask",
+        "scene": "bagel_plate_banana_bowl.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put fruit on the dish",
+          "default": "Pick up the banana and put it on the plate",
+          "specific": "Pick up the yellow banana and place it flat on the white ceramic plate"
+        }
+      },
+      {
+        "task": "BananaInBowlTask",
+        "scene": "banana_bowl.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the fruit in the bowl",
+          "default": "Pick up the banana and place it in the bowl",
+          "specific": "Grasp the yellow banana and place it inside the red bowl on the table"
+        }
+      },
+      {
+        "task": "BananasInBinOneMoreTask",
+        "scene": "bananas_5_grey_bin.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Add a banana to the bin",
+          "default": "Put one (1) more bananas in the grey bin.",
+          "specific": "Pick up one additional banana and place it in the grey bin alongside the ones already there"
+        }
+      },
+      {
+        "task": "BananasInBinThreeTotalTask",
+        "scene": "bananas_5_grey_bin.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "3 bananas in the bin",
+          "default": "Make sure there are 3 (three) bananas in the grey bin.",
+          "specific": "In addition to bananas in the bin, add one more banana to the grey bin until there are exactly three bananas inside"
+        }
+      },
+      {
+        "task": "BananasOutOfBinTask",
+        "scene": "bananas_5_grey_bin.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Empty the grey bin",
+          "default": "Take the bananas out",
+          "specific": "Take all the bananas out of the grey bin and put it on the table."
+        }
+      },
+      {
+        "task": "BananasInCrateTask",
+        "scene": "bananas_5_in_crate.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put 2 bananas in the container",
+          "default": "Put 2 bananas in the crate",
+          "specific": "Put 2 bananas in the purple crate. Make sure there are exactly 2 (two) bananas in the crate."
+        }
+      },
+      {
+        "task": "BBQSauceInBinTask",
+        "scene": "bin_condiments.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the bbq sauce bottles away",
+          "default": "Put the red BBQ sauce bottles in the grey bin",
+          "specific": "Pick up the two red BBQ sauce bottles from the table and place them into the grey bin"
+        }
+      },
+      {
+        "task": "CannedFoodInBinTask",
+        "scene": "bin_condiments.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put away cans",
+          "default": "Put the canned food in the grey bin",
+          "specific": "Put the small canned tuna in the grey bin"
+        }
+      },
+      {
+        "task": "CoffeePotInBinTask",
+        "scene": "bin_condiments.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put away the coffee pot",
+          "default": "Put the coffee pot in the grey bin",
+          "specific": "Pick up the black speckled coffee pot and place it inside the grey bin"
+        }
+      },
+      {
+        "task": "CondimentsInBinTask",
+        "scene": "bin_condiments.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Put the sauces away",
+          "default": "Sort the sauce condiments into the grey bin",
+          "specific": "Pick up each sauce condiment bottle from the table and place it into the grey bin"
+        }
+      },
+      {
+        "task": "BowlInBinTask",
+        "scene": "bin_mug_mustard_marker_bowl.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "put away bowl",
+          "default": "put the bowl in the grey bin",
+          "specific": "Pick up the bowl from the table and place it inside the grey bin"
+        }
+      },
+      {
+        "task": "PickUpBluePitcherTask",
+        "scene": "blue.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Pick up blue object",
+          "default": "Pick up the large blue pitcher",
+          "specific": "Pick up the large blue pitcher on the table by the side handle and lift it off the table"
+        }
+      },
+      {
+        "task": "SauceBottlesCrateTask",
+        "scene": "bottles_crate.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the red bottle away",
+          "default": "Put the red bbq sauce bottle in the crate",
+          "specific": "Pick up the red BBQ sauce bottle and place it inside the wooden crate"
+        }
+      },
+      {
+        "task": "BowlStackingLeftOnRightTask",
+        "scene": "bowls_2_table.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Stack the left bowl on the right",
+          "default": "Stack the left bowl on the right bowl",
+          "specific": "Pick up the bowl to the left of the robot and place it on top of the bowl to the right of the robot"
+        }
+      },
+      {
+        "task": "BowlStackingRightOnLeftTask",
+        "scene": "bowls_2_table.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Stack the right bowl on the left",
+          "default": "Stack the right bowl on the left bowl",
+          "specific": "Pick up the bowl to the right of the robot and place it on top of the bowl to the left of the robot"
+        }
+      },
+      {
+        "task": "GrabABagelTask",
+        "scene": "breakfast_table.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Grab some bread",
+          "default": "Grab a bagel",
+          "specific": "Reach for one of the bagels on the table and pick it up"
+        }
+      },
+      {
+        "task": "GrabAFruitTask",
+        "scene": "breakfast_table.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Grab a fruit",
+          "default": "Pick up a fruit",
+          "specific": "Reach for and grasp any one of the fruits on the table and lift it off the surface"
+        }
+      },
+      {
+        "task": "MoveBananaToBagelPlateTask",
+        "scene": "breakfast_table.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the bananas with the bagels",
+          "default": "Move the bananas to the bagel plate",
+          "specific": "Pick up the yellow bananas and transfer them onto the plate containing the bagels"
+        }
+      },
+      {
+        "task": "UtensilsInMugTask",
+        "scene": "breakfast_table.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put the utensils in the mug",
+          "default": "Put the fork and spoon in the ceramicmug",
+          "specific": "Take the fork on the bagel plate and put it in the ceramic mug, and take the spoon from the red bowl and put it in the mug"
+        }
+      },
+      {
+        "task": "YogurtInBowlTask",
+        "scene": "breakfast_table.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the yogurt in the bowl",
+          "default": "Put the small red yogurt in the red bowl",
+          "specific": "Pick up the small red yogurt container and place it inside the red bowl"
+        }
+      },
+      {
+        "task": "ButterAboveRaisinTask",
+        "scene": "butter_raisin_box.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put butter on raisin box",
+          "default": "Pick up the butter box and place it on top of the raisin box",
+          "specific": "Place the butter on top of the raisin box. The butter should end up on the raisin box."
+        }
+      },
+      {
+        "task": "LargerObjectRaisinBoxInBinTask",
+        "scene": "butter_raisin_box_grey_bin.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the larger object away",
+          "default": "Place the larger object in the grey bin.",
+          "specific": "Compare the objects and put the larger raisin box in the grey bin"
+        }
+      },
+      {
+        "task": "SmallerObjectButterInBinTask",
+        "scene": "butter_raisin_box_grey_bin.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put one in the bin",
+          "default": "Place the smaller object in the grey bin.",
+          "specific": "Compare the objects on the table, identify the smaller one, and place it in the grey bin"
+        }
+      },
+      {
+        "task": "RecycleCartonTask",
+        "scene": "cartons_in_crate.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Recycle the cartons",
+          "default": "Put the recyclable cartons in the grey bin",
+          "specific": "Pick up the food cartons that can be recycled and place them into the grey bin in the center of the table"
+        }
+      },
+      {
+        "task": "RecycleCartonsVerticalCrateTask",
+        "scene": "cartons_in_vertical_crate.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Recycle the cartons in the crate",
+          "default": "Put the cartons that can be recycled in the vertical crate",
+          "specific": "Pick up the food cartons that can be recycled and place them into the vertical crate in the center of the table"
+        }
+      },
+      {
+        "task": "RecycleCartonsOnBoxTask",
+        "scene": "cartons_on_box.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the carton recyclables on the box",
+          "default": "Put the cartons that can be recycled on the box",
+          "specific": "Identify the food cartons that can be recycled and put them on top of the brown square box."
+        }
+      },
+      {
+        "task": "BlockStackingOrderAgnosticTask",
+        "scene": "colored_blocks.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Build a tower",
+          "default": "Stack the blocks into a tower",
+          "specific": "Pick up the colored blocks and stack them vertically on top of each other, forming one tower"
+        }
+      },
+      {
+        "task": "BlockStackingSpecifiedOrderTask",
+        "scene": "colored_blocks.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Stack in the order of red, blue, green, yellow",
+          "default": "Stack the blocks in the order from bottom to top: red, blue, green, yellow",
+          "specific": "Build a tower by placing the red block first, then the blue block on top, then the green, and finally the yellow block on top as a single tower"
+        }
+      },
+      {
+        "task": "CookingClearPlateTask",
+        "scene": "cooking_table.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Clear the plate",
+          "default": "Put the two measuring cups outside of the plate",
+          "specific": "Pick up the orange measuring cup and the blue measuring cup from the plate and place each on the table surface"
+        }
+      },
+      {
+        "task": "CookingPickPastaToolTask",
+        "scene": "cooking_table.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Move the pink tool over to the other container",
+          "default": "Move the pink tool from this utensil container to the other utensil holder",
+          "specific": "Remove the pink pasta tool from its current utensil container and place it in the other utensil holder"
+        }
+      },
+      {
+        "task": "PickOrangeObjectTask",
+        "scene": "cooking_table.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Pick up orange-colored thing",
+          "default": "Pick up the orange measuring cup",
+          "specific": "Identify and pick up the orange-colored object from the cooking area"
+        }
+      },
+      {
+        "task": "FoodPackingByColorTask",
+        "scene": "food_packing.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Sort things by color",
+          "default": "Pack yellow objects in right container and blue object in the left container",
+          "specific": "Pick up the yellow can and place it in the right container, then pick up the blue object and place it in the left container"
+        }
+      },
+      {
+        "task": "FoodPacking1BoxesTask",
+        "scene": "foodpacking_1bin_1box_1can.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Pack boxes",
+          "default": "Pack boxed foods into the bin",
+          "specific": "Pick up the boxed food item and place it inside the bin"
+        }
+      },
+      {
+        "task": "FoodPacking1CansTask",
+        "scene": "foodpacking_1bin_1box_1can.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Pack cans",
+          "default": "Pack canned foods into the bin",
+          "specific": "Pick up the canned food item and place it inside the bin"
+        }
+      },
+      {
+        "task": "FoodPacking2BoxesTask",
+        "scene": "foodpacking_1bin_2box_2can.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Pack boxes",
+          "default": "Pack boxed foods into the bin",
+          "specific": "Pick up each boxed food item and place them all inside the bin"
+        }
+      },
+      {
+        "task": "FoodPacking2CansTask",
+        "scene": "foodpacking_1bin_2box_2can.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Pack cans",
+          "default": "Pack canned foods into the bin",
+          "specific": "Pick up each canned food item and place them all inside the bin"
+        }
+      },
+      {
+        "task": "FoodPacking3BoxesTask",
+        "scene": "foodpacking_1bin_3box_3can.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Pack boxes",
+          "default": "Pack boxed foods into the bin",
+          "specific": "Pick up all three boxed food items and place each one inside the bin"
+        }
+      },
+      {
+        "task": "FoodPacking3CansTask",
+        "scene": "foodpacking_1bin_3box_3can.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Pack cans",
+          "default": "Pack canned foods into the bin",
+          "specific": "Pick up all three canned food items and place each one inside the bin"
+        }
+      },
+      {
+        "task": "FruitsMovingOrangeOrLimeTask",
+        "scene": "fruits_in_basket.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put an orange or lime fruit in the wooden bowl",
+          "default": "Move an orange or a lime to the wood bowl",
+          "specific": "Select either an orange or a green lime and place it inside the wooden bowl"
+        }
+      },
+      {
+        "task": "FruitsMovingTask",
+        "scene": "fruits_in_basket.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Move orange to white bowl",
+          "default": "Move an orange to the white bowl",
+          "specific": "Pick up one orange citrus fruit and place it inside the white bowl"
+        }
+      },
+      {
+        "task": "FruitsOnionTask",
+        "scene": "fruits_in_basket.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the vegetable in the wood bowl",
+          "default": "Put the onion in the wood bowl",
+          "specific": "Pick up the round onion and place it inside the wooden bowl"
+        }
+      },
+      {
+        "task": "FruitsOnionToPlateTask",
+        "scene": "fruits_in_basket.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Plate the onion",
+          "default": "Put the onion on the plate",
+          "specific": "Pick up the round onion and place it on the flat plate"
+        }
+      },
+      {
+        "task": "WoodSpatulaToBowlTask",
+        "scene": "fruits_in_basket.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the wood utensil in the bowl",
+          "default": "Put the wooden spatula in the bowl",
+          "specific": "Pick up the wooden spatula from the utensils box on the table and place it inside the wooden bowl in the center of the table"
+        }
+      },
+      {
+        "task": "FruitsGreenLimesOnPlateTask",
+        "scene": "fruits_out_of_basket.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Plate green fruits",
+          "default": "Put all the green fruit on the plate",
+          "specific": "Put all green limes on the table and place them on the flat, beige colored plate"
+        }
+      },
+      {
+        "task": "FruitsOnPlate3Task",
+        "scene": "fruits_out_of_basket.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Put three fruit on the plate",
+          "default": "Put three (3) fruits on the plate",
+          "specific": "Select exactly three fruits (lemon, lime, orange, pomegranate) from the table and place all of them on the plate"
+        }
+      },
+      {
+        "task": "FruitsOnPlateTask",
+        "scene": "fruits_out_of_basket.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Put fruits on the plate",
+          "default": "Put all the fruits on the plate",
+          "specific": "Pick up all fruits that are on the table and place them all onto the large round plate"
+        }
+      },
+      {
+        "task": "FruitsOrangesOnPlateTask",
+        "scene": "fruits_out_of_basket.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Plate the oranges",
+          "default": "Put all the oranges on the plate",
+          "specific": "Pick up all of the orange citrus fruit from the table and place them all on the plate, there should be two oranges on the plate"
+        }
+      },
+      {
+        "task": "PickUpGreenObjectTask",
+        "scene": "green.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Pick up the green object",
+          "default": "Pick up the green vegetable block",
+          "specific": "Identify the green vegetable block on the table and lift it off the table"
+        }
+      },
+      {
+        "task": "GreenSpoonsInPotTask",
+        "scene": "ladle_pot.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Put the green utensils in the pot",
+          "default": "Put the green spoons in the pot",
+          "specific": "Pick up all green-colored spoons and place them inside the cooking pot"
+        }
+      },
+      {
+        "task": "PinkSpoonInPotTask",
+        "scene": "ladle_pot.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put the pink spoon in the pot",
+          "default": "Put the pink spaghetti spoon in the pot",
+          "specific": "Pick up the pink spaghetti serving spoon that's on the left plate and place it inside the pot in the center of the table"
+        }
+      },
+      {
+        "task": "SpoonsInPotTask",
+        "scene": "ladle_pot.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Put the spoons with no holes in the pot",
+          "default": "Put all of the serving spoons with no holes in the pot",
+          "specific": "Pick up all of the serving spoons (two green, one red) with no holes from the table and place them inside the cooking pot"
+        }
+      },
+      {
+        "task": "DishesInBinTask",
+        "scene": "mugs2_bananas2_ketchup_rubiks3_bin.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put away dishes",
+          "default": "Put the dishware in the grey bin",
+          "specific": "Pick up the two mugs and a bowl from the table and place them into the grey bin"
+        }
+      },
+      {
+        "task": "WhiteMugsInBinTask",
+        "scene": "mugs2_bananas2_ketchup_rubiks3_bin.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put away all mugs",
+          "default": "Clean up the white mugs",
+          "specific": "Put the two white mugs in the grey bin"
+        }
+      },
+      {
+        "task": "PickDrillTask",
+        "scene": "mugs4_measuringcup_drill_bowl.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Get the drill",
+          "default": "Pick up the cordless drill.",
+          "specific": "Pick up the orange cordless electric drill and lift it off the table"
+        }
+      },
+      {
+        "task": "ReorientAllMugsTask",
+        "scene": "mugs4_measuringcup_drill_bowl.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Make sure the mugs are upright",
+          "default": "Reorient all the mugs upright so that the opening is facing upwards.",
+          "specific": "Check each mug on the table and if any are tipped over or inverted, rotate them so the opening faces upward. Leave it if it's already upright."
+        }
+      },
+      {
+        "task": "ReorientRedMugTask",
+        "scene": "mugs4_measuringcup_drill_bowl.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Fix the red cup",
+          "default": "Put the red mug upright so that the opening is facing upwards.",
+          "specific": "Check the red ceramic mug and if it is tipped over or inverted, rotate it so the opening faces upward. Leave it if already upright."
+        }
+      },
+      {
+        "task": "StackWhiteMugsTask",
+        "scene": "mugs4_measuringcup_drill_bowl.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Stack the white mugs ",
+          "default": "Stack the white mugs on top of each other.",
+          "specific": "Take a white mug and place it on top of the other white mug"
+        }
+      },
+      {
+        "task": "ReorientWhiteMugsTask",
+        "scene": "mugs4_measuringcup_drill_bowl_v2.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Fix the cups",
+          "default": "Make sure all the white mugs are upright so that the opening is facing upwards.",
+          "specific": "For each white mug that is tipped over or upside down, rotate it so the opening faces straight up"
+        }
+      },
+      {
+        "task": "TakeMeasuringSpoonOutTask",
+        "scene": "mugs4_measuringcup_drill_bowl_v2.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Take the measuring spoon out of the bowl",
+          "default": "Take the white colored measuring spoon out of the red bowl and put it on the table.",
+          "specific": "Reach into the bowl, grasp the measuring spoon, lift it out, and place it on the table surface"
+        }
+      },
+      {
+        "task": "TakeMugsOffOfShelfTask",
+        "scene": "mugs_on_shelf.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Clear the shelf",
+          "default": "Take the mugs off the shelf",
+          "specific": "Remove each mug from the second level of the shelf and place them on the table below"
+        }
+      },
+      {
+        "task": "MustardAboveRaisinTask",
+        "scene": "mustard_raisin_box.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put bottle on box",
+          "default": "Place the mustard on the raisin box. ",
+          "specific": "Pick up the mustard bottle and put it on top of the raisin box. The mustard should end up directly above the raisin box."
+        }
+      },
+      {
+        "task": "WhiteMugInCenterOfTableTask",
+        "scene": "objects_around_table.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Move the mug to the center",
+          "default": "Put the white mug in the center of the table.",
+          "specific": "Pick up the white ceramic mug and place it in the center of the table surface away from the other objects"
+        }
+      },
+      {
+        "task": "Stack3RubiksCubeTask",
+        "scene": "rubiks_cube_3.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Stack everything in a tower",
+          "default": "Stack the rubiks cubes in a tower",
+          "specific": "Pick up the rubiks cubes and stack them vertically on top of each other on the table"
+        }
+      },
+      {
+        "task": "RubiksCubeTask",
+        "scene": "rubiks_cube_bowl.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put it in the bowl",
+          "default": "Put the cube in the bowl",
+          "specific": "Pick up the rubiks cube that's on the table and place it inside the bowl"
+        }
+      },
+      {
+        "task": "PutBowlOnShelfTopTask",
+        "scene": "shelf_mugs_jug_bowl.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the bowl on shelf",
+          "default": "Put the serving bowl anywhere on the shelf in front of you",
+          "specific": "Pick up the white serving bowl that's on the table to the right and place it on any open space on the shelf on the center of the table"
+        }
+      },
+      {
+        "task": "PutMugsOnShelfTask",
+        "scene": "shelf_mugs_jug_bowl.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put the mugs on shelf",
+          "default": "Put the two mugs on the shelf",
+          "specific": "Pick up the two mugs from the table and place them on the shelf in front of you"
+        }
+      },
+      {
+        "task": "JugsOnShelfTask",
+        "scene": "shelf_with_cleaning_products.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the jugs on the shelf",
+          "default": "Put all the jugs on the shelf",
+          "specific": "Pick up both jugs from the table and place them on the shelf"
+        }
+      },
+      {
+        "task": "OneBottleInSquarePailTask",
+        "scene": "shelf_with_cleaning_products.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put a bottle in the square pail",
+          "default": "Put any white plastic bottle in the square pail",
+          "specific": "Pick up one of the three white plastic bottles and place it inside the square pail"
+        }
+      },
+      {
+        "task": "OneBottleOnShelfTask",
+        "scene": "shelf_with_cleaning_products.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put a bottle on the shelf",
+          "default": "Put any white plastic bottle on the shelf",
+          "specific": "Pick up one of the three white plastic bottles and place it on the shelf"
+        }
+      },
+      {
+        "task": "PlasticBottlesInSquarePailTask",
+        "scene": "shelf_with_cleaning_products.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Clean up small bottles in the square pail",
+          "default": "Put all the small plastic bottles in the square pail",
+          "specific": "Pick up the three small plastic bottles and place them inside the square shaped pail"
+        }
+      },
+      {
+        "task": "ReorientJugTask",
+        "scene": "shelf_with_cleaning_products.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Fix the jug",
+          "default": "Stand the jug upright",
+          "specific": "Grasp the jug that is tipped on its side place it upright"
+        }
+      },
+      {
+        "task": "ClampInRightBinTask",
+        "scene": "tools_container.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the clamp in the right bin",
+          "default": "Put the spring clamp in the right bin",
+          "specific": "Pick up the spring clamp from the table and place it in the bin on the right side"
+        }
+      },
+      {
+        "task": "HammersInLeftBinTask",
+        "scene": "tools_container.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put hammers in the left bin",
+          "default": "Put the red hammer and black hammer in the left bin",
+          "specific": "Pick up the red-handled hammer and the black-handled hammer and place both in the left bin"
+        }
+      },
+      {
+        "task": "NonHammerToolsInRightBinTask",
+        "scene": "tools_container.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Sort non-hammer tools to the right",
+          "default": "Put the non-hammer tools in the right bin",
+          "specific": "Pick up the cordless drill and the spring clamp and place both in the bin on the right side, leaving the hammers untouched"
+        }
+      },
+      {
+        "task": "ToolOrganizationBothTask",
+        "scene": "tools_container.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put hammers in the right bin",
+          "default": "Put hammers in the right bin and do not touch anything else",
+          "specific": "Pick up the red hammer and the black hammer and place them in the bin on the right side, leaving all other tools untouched"
+        }
+      },
+      {
+        "task": "ToolOrganizationTask",
+        "scene": "tools_container.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put hammers in the left bin",
+          "default": "Put the red hammer and black hammer in the left bin",
+          "specific": "Pick up the red-handled hammer and the black-handled hammer and place both in the left bin"
+        }
+      },
+      {
+        "task": "ToolsPickingAllHammersTask",
+        "scene": "tools_picking.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Empty the hammers bin",
+          "default": "Take out all the hammers and put them on the table",
+          "specific": "Remove every hammer from the left bin and place each one on the table in front of you"
+        }
+      },
+      {
+        "task": "ToolsPickingDrillTask",
+        "scene": "tools_picking.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Get the drill",
+          "default": "Select the cordless drill and put it on the table",
+          "specific": "Pick up the cordless electric drill and place it on the table surface"
+        }
+      },
+      {
+        "task": "ToolsPickingHammerTask",
+        "scene": "tools_picking.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Get the blue hammer",
+          "default": "Select the blue hammer and put it on the table",
+          "specific": "Reach into the tool area, grasp the blue-handled hammer, and place it flat on the table surface"
+        }
+      },
+      {
+        "task": "AnimalsInBinTask",
+        "scene": "toys_cleanup.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put away the animals",
+          "default": "Put the lizards in the bin",
+          "specific": "Pick up the two identical green lizard figurines and place them into the bin"
+        }
+      },
+      {
+        "task": "BlocksInBinTask",
+        "scene": "toys_cleanup.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Put away the colored blocks",
+          "default": "Sort all colored blocks into the bin",
+          "specific": "Put away the solidly-colored wooden blocks from the table and place them all into the bin"
+        }
+      },
+      {
+        "task": "CleanUpToysTask",
+        "scene": "toys_cleanup.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Clean up everything except the birdhouse",
+          "default": "Clean up all the smaller toys and leave the birdhouse on the table",
+          "specific": "Pick up every toy object (rubiks cube, lizard figurines, colored blocks) from the table and place them all into the bin. Please ignore the birdhouse and don't touch it."
+        }
+      },
+      {
+        "task": "CubesAndBlocksInBinTask",
+        "scene": "toys_cleanup.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Put blocks away",
+          "default": "Put all the cubes and blocks in the bin",
+          "specific": "Pick up every solid-colored cube and rubiks cubes from the table and place them all into the bin"
+        }
+      },
+      {
+        "task": "RubiksCubesInBinTask",
+        "scene": "toys_cleanup.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Put away rubiks cubes",
+          "default": "Sort all rubiks cubes into the bin",
+          "specific": "Pick up only the three rubiks cube from the table and place them all into the grey bin"
+        }
+      },
+      {
+        "task": "StackYellowOnRedTask",
+        "scene": "toys_cleanup.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Stack blocks: yellow on red",
+          "default": "Stack the yellow block on the red block",
+          "specific": "Pick up the yellow block on the left and place it precisely on top of the red block in front of the birdhouse"
+        }
+      },
+      {
+        "task": "MustardInLeftBinTask",
+        "scene": "two_bin.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Use the left bin for mustard",
+          "default": "Put the mustard in the left bin",
+          "specific": "Pick up the mustard bottle and place it in the bin on the left side"
+        }
+      },
+      {
+        "task": "MustardInRightBinTask",
+        "scene": "two_bin.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Use the right bin for mustard",
+          "default": "Put the mustard in the right bin",
+          "specific": "Pick up the mustard bottle and place it in the bin on the right side"
+        }
+      },
+      {
+        "task": "PutTwoMugsOnShelfTask",
+        "scene": "wire_shelf_mugs_plate_spatula.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put the mugs on shelf",
+          "default": "Put two (2) mugs on the wire shelf",
+          "specific": "Select two mugs from the right side of the table and place them on the wire shelf in front of you"
+        }
+      },
+      {
+        "task": "TakeSpatulaOffShelfTask",
+        "scene": "wire_shelf_mugs_plate_spatula.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Take the spatula off the shelf",
+          "default": "Take the spatula off the shelf and put it on the table",
+          "specific": "Reach up and remove the spatula from the shelf, then place it flat on the table surface"
+        }
+      },
+      {
+        "task": "MarkerInMugTask",
+        "scene": "workdesk.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put the marker in the mug",
+          "default": "Put the whiteboard marker in the mug",
+          "specific": "Pick up the marker and drop it vertically into the mug, make sure the marker stands upright"
+        }
+      },
+      {
+        "task": "MouseOnKeyboardTask",
+        "scene": "workdesk.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the mouse on the keyboard",
+          "default": "Put the computer mouse on the keyboard",
+          "specific": "Pick up the computer mouse and place it on top of the keyboard"
+        }
+      },
+      {
+        "task": "PickGlassesTask",
+        "scene": "workdesk.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Grab the glasses",
+          "default": "Pick up the eye glasses",
+          "specific": "Pick up the pair of black eyeglasses that's sitting on the table"
+        }
+      },
+      {
+        "task": "AppleAndYogurtInBowlTask",
+        "scene": "workdesk_snacks.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put the food items in the bowl",
+          "default": "Put the apple and yogurt in the bowl",
+          "specific": "Pick up the red apple and the small yogurt container and place both inside the bowl"
+        }
+      },
+      {
+        "task": "ThrowAwayAppleTask",
+        "scene": "workdesk_snacks.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Toss the apple",
+          "default": "Throw away the apple",
+          "specific": "Pick up the red apple from the table and drop it into the grey bin to discard it"
+        }
+      },
+      {
+        "task": "ThrowAwaySnacksTask",
+        "scene": "workdesk_snacks.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Throw away the snacks",
+          "default": "Put away the snacks in the bin",
+          "specific": "Pick up each snack item from the table and drop it into the bin to discard"
+        }
+      }
+    ],
+    "validation": [
+      {
+        "task": "BigPumpkinInBinTask",
+        "scene": "clutter_fruit_bottle_bluebin.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the big pumpkin away",
+          "default": "Put the bigger pumpkin in the bin",
+          "specific": "Identify the larger pumpkin of the two pumpkins on the table and place it in the bin"
+        }
+      },
+      {
+        "task": "ClearOrganicObjectsTask",
+        "scene": "clutter_fruit_bottle_bluebin.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Put away all the food items",
+          "default": "Clear away the organic objects",
+          "specific": "Identify every organic fruits and vegetables (lemon, lime, orange, pomegranate, pumpkin, red onion, avocado) on the table and place each into the bin"
+        }
+      },
+      {
+        "task": "ClutterPlasticTask",
+        "scene": "clutter_fruit_bottle_bluebin.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Clean up all the bottles",
+          "default": "Put all plastic bottles away in the bin",
+          "specific": "Pick up all three plastic bottles (milk jug, utility jug, and plastic bottle) from the table and place them into the bin"
+        }
+      },
+      {
+        "task": "ClutterPumpkinTask",
+        "scene": "clutter_fruit_bottle_bluebin.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Clean up pumpkins",
+          "default": "Put all the pumpkins away in the bin",
+          "specific": "Pick up the big and small pumpkins from the table and place them all into the bin"
+        }
+      },
+      {
+        "task": "SmallPumpkinInBinTask",
+        "scene": "clutter_fruit_bottle_bluebin.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put away the small pumpkin",
+          "default": "Put the small pumpkin in the bin",
+          "specific": "Identify the smaller pumpkin of the two pumpkins on the table and place it in the bin"
+        }
+      },
+      {
+        "task": "BananaThenRubiksCubeTask",
+        "scene": "rubiks_cube_banana_bowl.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "put banana then cube away",
+          "default": "put the banana then the cube in the bowl",
+          "specific": "First pick up the yellow banana and place it in the bowl, then pick up the rubiks cube and place it in the bowl after"
+        }
+      },
+      {
+        "task": "RubiksCubeAndBananaTask",
+        "scene": "rubiks_cube_banana_bowl.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put everything in the bowl",
+          "default": "Put the cube and the banana in the bowl",
+          "specific": "Pick up the rubiks cube and the yellow banana and place both inside the bowl"
+        }
+      },
+      {
+        "task": "RubiksCubeBehindBowlTask",
+        "scene": "rubiks_cube_banana_bowl.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put the cube behind the bowl",
+          "default": "Put the rubiks cube behind the bowl",
+          "specific": "Pick up the rubiks cube and place it on the table directly behind the bowl, further from you"
+        }
+      },
+      {
+        "task": "RubiksCubeInFrontOfBowlTask",
+        "scene": "rubiks_cube_banana_bowl.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put the cube in front of the bowl",
+          "default": "Put the rubiks cube in front of the bowl",
+          "specific": "Pick up the rubiks cube and place it on the table directly in front of the bowl, closer to you"
+        }
+      },
+      {
+        "task": "RubiksCubeLeftOfBowlTask",
+        "scene": "rubiks_cube_banana_bowl.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put the cube left of the bowl",
+          "default": "Put the rubiks cube to the left of the bowl",
+          "specific": "Pick up the rubiks cube and place it on the table to the left side of the bowl"
+        }
+      },
+      {
+        "task": "RubiksCubeOrBananaTask",
+        "scene": "rubiks_cube_banana_bowl.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Choose an object and put it in the bowl",
+          "default": "Put the cube or the banana in the bowl",
+          "specific": "Choose either the rubiks cube or the yellow banana and place it inside the bowl"
+        }
+      },
+      {
+        "task": "RubiksCubeThenBananaTask",
+        "scene": "rubiks_cube_banana_bowl.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the cube then banana in the bowl",
+          "default": "Put the cube then the banana in the bowl",
+          "specific": "First pick up the rubiks cube that's on the table and place it in the bowl, then pick up the yellow banana and place it in the bowl"
+        }
+      }
+    ],
+    "test": [
+      {
+        "task": "UnstackRubiksCubeTask",
+        "scene": "mug_banana_ketchup_bowl_rubiks3_bin.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Unstack the tower",
+          "default": "Unstack the rubiks cube tower",
+          "specific": "Remove each rubiks cube from the stacked tower one at a time and place them separately on the table"
+        }
+      },
+      {
+        "task": "YellowAndWhiteObjectsInBinTask",
+        "scene": "mug_banana_ketchup_bowl_rubiks3_bin.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Clean up white and yellow objects",
+          "default": "Put all white objects and yellow objects in the grey bin",
+          "specific": "Identify the white-colored and yellow-colored object on the table and place each one into the grey bin"
+        }
+      },
+      {
+        "task": "RedDishesInBinTask",
+        "scene": "rubiks_cube_banana_bowl_mug_bin.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Clean up red dishware",
+          "default": "Put the red dishware in the grey bin",
+          "specific": "Pick up each red mug and bowl from the table and place them in the grey bin"
+        }
+      },
+      {
+        "task": "RedItemsInBinTask",
+        "scene": "rubiks_cube_banana_bowl_mug_bin.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Sort items by color",
+          "default": "Put all the red things in the grey bin",
+          "specific": "Identify every red-colored object on the table and place each one into the grey bin"
+        }
+      },
+      {
+        "task": "RubiksCubeRightOfBowlTask",
+        "scene": "rubiks_cube_banana_bowl_mug_bin.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put the cube right of the bowl",
+          "default": "Put the rubiks cube to the right of the bowl",
+          "specific": "Pick up the rubiks cube and place it on the table to the right side of the bowl"
+        }
+      },
+      {
+        "task": "BlackItemsInBinTask",
+        "scene": "workdesk_bin.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Clean up the dark items",
+          "default": "Put the black items in the grey bin",
+          "specific": "Identify all black-colored objects on the table and place them into the grey bin"
+        }
+      },
+      {
+        "task": "ElectronicsInBinTask",
+        "scene": "workdesk_bin.usda",
+        "difficulty": "complex",
+        "prompts": {
+          "vague": "Put the gadgets away",
+          "default": "Put the electronic devices in the grey bin",
+          "specific": "Identify every electronic device on the table and place each one into the grey bin"
+        }
+      },
+      {
+        "task": "KeyboardOutOfBinTask",
+        "scene": "workdesk_bin.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Take the keyboard out",
+          "default": "Take the keyboard out of the bin and put it on the table",
+          "specific": "Reach into the bin, grasp the keyboard, lift it out, and place it on the table surface"
+        }
+      },
+      {
+        "task": "PhoneOrRemoteInBinTask",
+        "scene": "workdesk_bin.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the phone or the remote away",
+          "default": "Put the phone or the remote in the grey bin",
+          "specific": "Choose either the black phone or the remote control and it into the grey bin next to the keyboard"
+        }
+      },
+      {
+        "task": "SmartphoneInBinTask",
+        "scene": "workdesk_bin.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the phone in the bin",
+          "default": "Put the smartphone in the grey bin",
+          "specific": "Pick up the smartphone in front of you and place it inside the grey bin alongside the keyboard"
+        }
+      },
+      {
+        "task": "SpoonInMugTask",
+        "scene": "workdesk_bin.usda",
+        "difficulty": "moderate",
+        "prompts": {
+          "vague": "Put the spoon in the mug",
+          "default": "Put the metal spoon that's in the wooden bowl in the mug",
+          "specific": "Take the metal spoon in the wooden bowl and place it inside the ceramic mug with the handle sticking out"
+        }
+      },
+      {
+        "task": "ToyInBinTask",
+        "scene": "workdesk_bin.usda",
+        "difficulty": "simple",
+        "prompts": {
+          "vague": "Put the toy away",
+          "default": "Put the lizard away in the bin",
+          "specific": "Put the green lizard figurine away in the grey bin"
+        }
+      }
+    ]
+  }
+}
